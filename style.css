@@ -1,0 +1,225 @@
+body {
+	background-color: #e4ebe9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.container {
+	border: 2px solid #bfd766;
+	background-color: #fff;
+}
+
+.header {
+	background: url('./images/pic8.png');
+	height: 170px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.sidebar {
+	background-color: #bfd766;
+	height: 100vh;
+	color: #fff;
+	margin: 30px 0 0 0;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.sidebar h2 {
+	margin: 20px 0 35px 0;
+    text-align: center;
+}
+
+.sidebar .flag_england, .sidebar .flag_germany, .sidebar .flag_france {
+	margin: 0 0 10px 30px;
+}
+
+.sidebar .flag_england:before {
+	content: "";
+	background: url("./images/pic2.png");
+	width: 26px;
+	height: 26px;
+	display: block;
+	position: absolute;
+    left: 10px;
+}
+
+.sidebar .flag_germany:before {
+	content: "";
+	background: url("./images/pic1.png");
+	width: 26px;
+	height: 26px;
+	display: block;
+	position: absolute;
+    left: 10px;
+}
+
+.sidebar .flag_france:before {
+	content: "";
+	background: url("./images/pic.png");
+	width: 26px;
+	height: 26px;
+	display: block;
+	position: absolute;
+    left: 10px;
+}
+
+.sidebar .flag_england a, .sidebar .flag_germany a, .sidebar .flag_france a {
+	font-size: 18px;
+	padding: 0 0 5px 0;
+	display: block;
+	color: #fff;
+}
+
+.sidebar .flag_england a:hover, .sidebar .flag_germany a:hover, .sidebar .flag_france a:hover {
+	cursor: pointer;
+}
+
+.sidebar .flag_england span, .sidebar .flag_germany span, .sidebar .flag_france span {
+	font-weight: 600;
+}
+
+.content {
+	margin: 30px 0 0 0;
+}
+
+.content h2 {
+	color: #94a442;
+	padding: 20px 0 30px 0;
+	text-transform: uppercase;
+}
+
+.content .advertising {
+	background-color: #e9e9e9;
+	height: 100vh;
+	color: #4a4a4a;
+	text-align: center;
+}
+
+.match_info {
+	background-color: #bfd766;
+	font-size: 12px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	color: #445932;
+}
+
+.match_info .flag img{
+	margin: 10px 0;
+}
+
+.match_info .txt p{
+	margin: 15px 0;
+	color: #445932;
+}
+
+.match_info .stat, .match_info .comm {
+	text-align: right;
+	margin: 15px 0 5px 0; 
+}
+
+.match_info .stat a, .match_info .comm a {
+	color: #445932;
+}
+
+.match_info .stat:before {
+	content: "";
+	background: url("./images/pic3.png");
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+    left: -2px;
+    bottom: 0px;
+
+}
+
+.match_info .comm:before {
+	content: "";
+	background: url("./images/pic6.png");
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+    left: -2px;
+    bottom: 0px;
+
+}
+
+.info_head {
+	background-color: #eaeaea;
+	padding: 20px 0;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-right-radius: 3px;
+}
+
+.info_head h3 {
+	font-style: 18px;
+	text-align: center; 
+}
+
+.event {
+	padding: 5px 15px;
+	height: 33px;
+}
+
+.detailes {
+	padding: 10px 15px;
+	height: 33px;
+}
+
+.detailes p {
+	font-size: 12px;
+}
+
+.first_event .detailes, .first_event .event{
+	background-color: #f6f6f6;
+}
+
+
+.seccond_event .detailes, .seccond_event .event{
+	background-color: #eaeaea;
+}
+
+.seccond_event.last .detailes{
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.seccond_event.last a{
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 12px;
+}
+
+.match {
+	margin: 0 0 25px 0;
+}
+
+.footer {
+	background-color: #474747;
+	text-align: center;
+	bottom: 0;
+}
+
+.footer p {
+	padding: 200px 0 70px 0;
+	color: #fff;
+}
